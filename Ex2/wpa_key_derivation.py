@@ -9,12 +9,21 @@ utilise l'algorithme Michael. Dans ce cas-ci, l'authentification, on utilise
 sha-1 pour WPA2 ou MD5 pour WPA)
 """
 
+<<<<<<< HEAD
+__author__      = "Edin Mujkanovic et Daniel Oliveira Paiva"
+__copyright__   = "Copyright 2017, HEIG-VD"
+__license__     = "GPL"
+__version__     = "1.0"
+__email__       = "edin.mujkanovic@heig-vd.ch"
+__status__      = "Prototype"
+=======
 __author__      = "Abraham Rubinstein et Yann Lederrey"
 __copyright__   = "Copyright 2017, HEIG-VD"
 __license__ 	= "GPL"
 __version__ 	= "1.0"
 __email__ 		= "abraham.rubinstein@heig-vd.ch"
 __status__ 		= "Prototype"
+>>>>>>> 0c49a6b2f3099ba5f9e11367490a02c2c967e949
 
 from scapy.all import *
 from binascii import a2b_hex, b2a_hex, hexlify
